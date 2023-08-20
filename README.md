@@ -34,18 +34,25 @@ O propósito deste relatório é demonstrar o processo de criação, configuraç
 ![Alt text](image-5.png)  
 ![Alt text](image.png) 
 
+### Criando chaves com IP 
+![Alt text](image-7.png) 
 
-![Alt text](image-7.png) Criando chaves com IP 
+### Iniciando AWS
+![Alt text](image-8.png) 
 
+### Criando chave pem
+![Alt text](image-9.png) 
 
-![Alt text](image-8.png) Iniciando AWS
+### Chave pem criada
+![Alt text](image-10.png) 
 
-![Alt text](image-9.png) Criando chave pem
-![Alt text](image-10.png) Chave pem criada
+### Print do powershell para mostrar que estou no mesmo diretório da chave
+![Alt text](image-11.png) 
 
-![Alt text](image-11.png) Print do powershell para mostrar que estou no mesmo diretório da chave
+### Tentativa de criação com chave pem negada por falta de permissão
+![Alt text](image-12.png) 
 
-![Alt text](image-12.png) Tentativa de criação com chave pem negada por falta de permissão
+Não foi possível iniciar a comunicação, não estou com acesso liberado e não sei o motivo. Talvez um dos motivos seja o fato de que estou com o computador do Inteli emprestado e posso ter alguma permissão mais restrita. Porém, realizei o mesmo procedimentos que meus colegar e tive resultados diferentes.
 
 ## Método Chave PPK
 1. Download Putty
@@ -56,6 +63,27 @@ O propósito deste relatório é demonstrar o processo de criação, configuraç
 ### Download Putty
 ![Alt text](image-6.png) 
 
+### Criação chave ppk
+
+![Alt text](image-13.png)
+
+### Criação instânicia com chave ppk
+
+![Alt text](image-14.png)
+
+### Configuração Putty
+
+![Alt text](image-15.png)
+
+### Configuração Putty
+
+![Alt text](image-16.png)
+
+### Resultado prompt de comando
+
+![Alt text](image-17.png)
+
+Não foi possível iniciar a comunicação, não consegui fazer a transformação da chave não sei por quais motivos.
 ---
 
 
