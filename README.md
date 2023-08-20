@@ -13,16 +13,19 @@ O propósito deste relatório é demonstrar o processo de criação, configuraç
 - PuTTY (SSH)
 - Git e GitHub
 
-## Método
-1. Download Putty
-2. Acesso ao Console da AWS e inicio de configuração de uma instância EC2.
-3. Configurei as opções de segurança, tipo de instância e outras configurações relevantes.
+## Método Chave PEM
+
+1. Entrar no AWS Academy
+2. Clicar nos seguintes hiperlinks dentro da AWS Academy: Cursos -> AWS Academy Learner Lab -> Módulos -> Laboratório de Aprendizagem 
+3. Dentro do laboratório, iniciar o o laboratório através do hiperlink "Start Lab" e aguardar iniciar o console da AWS
+4. Acesso ao console da AWS e inicio de configuração de uma instância EC2.
+5. Configurei as opções de segurança, tipo de instância e outras configurações relevantes.
+6. Criação de uma chave pem
+7. Iniciar conexão SSH através do comando "ssh -i "chavasemana2.pem" ec2-54-234-15-12.compute-1.amazonaws.com", utilizando o "DNS IPv4 público" fornecido pela AWS
 
 
-## Resultados
+## Resultados (Metódo chave PEM)
 
-### Download Putty
-![Alt text](image-6.png) 
 
 ### Criação da Instância EC2
 ![Alt text](image-1.png) 
@@ -32,8 +35,26 @@ O propósito deste relatório é demonstrar o processo de criação, configuraç
 ![Alt text](image.png) 
 
 
+![Alt text](image-7.png) Criando chaves com IP 
 
 
+![Alt text](image-8.png) Iniciando AWS
+
+![Alt text](image-9.png) Criando chave pem
+![Alt text](image-10.png) Chave pem criada
+
+![Alt text](image-11.png) Print do powershell para mostrar que estou no mesmo diretório da chave
+
+![Alt text](image-12.png) Tentativa de criação com chave pem negada por falta de permissão
+
+## Método Chave PPK
+1. Download Putty
+
+
+## Resultados (Metódo chave PPK)
+
+### Download Putty
+![Alt text](image-6.png) 
 
 ---
 
