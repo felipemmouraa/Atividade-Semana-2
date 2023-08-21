@@ -10,10 +10,9 @@ O propósito deste relatório é demonstrar o processo de criação, configuraç
 
 ## Materiais
 - Conta AWS
-- PuTTY (SSH)
 - Git e GitHub
 
-## Método Chave PEM
+## Método 
 
 1. Entrar no AWS Academy
 2. Clicar nos seguintes hiperlinks dentro da AWS Academy: Cursos -> AWS Academy Learner Lab -> Módulos -> Laboratório de Aprendizagem 
@@ -24,7 +23,7 @@ O propósito deste relatório é demonstrar o processo de criação, configuraç
 7. Iniciar conexão SSH através do comando "ssh -i "chavasemana2.pem" ec2-54-234-15-12.compute-1.amazonaws.com", utilizando o "DNS IPv4 público" fornecido pela AWS
 
 
-## Resultados (Metódo chave PEM)
+## Resultados 
 
 
 ### Criação da Instância EC2
@@ -49,41 +48,9 @@ O propósito deste relatório é demonstrar o processo de criação, configuraç
 ### Print do powershell para mostrar que estou no mesmo diretório da chave
 ![Alt text](image-11.png) 
 
-### Tentativa de criação com chave pem negada por falta de permissão
-![Alt text](image-12.png) 
+### Conexão realizada
+![Alt text](image-18.png)
 
-Não foi possível iniciar a comunicação, não estou com acesso liberado e não sei o motivo. Talvez um dos motivos seja o fato de que estou com o computador do Inteli emprestado e posso ter alguma permissão mais restrita. Porém, realizei o mesmo procedimentos que meus colegar e tive resultados diferentes.
-
-## Método Chave PPK
-1. Download Putty
-
-
-## Resultados (Metódo chave PPK)
-
-### Download Putty
-![Alt text](image-6.png) 
-
-### Criação chave ppk
-
-![Alt text](image-13.png)
-
-### Criação instânicia com chave ppk
-
-![Alt text](image-14.png)
-
-### Configuração Putty
-
-![Alt text](image-15.png)
-
-### Configuração Putty
-
-![Alt text](image-16.png)
-
-### Resultado prompt de comando
-
-![Alt text](image-17.png)
-
-Não foi possível iniciar a comunicação, não consegui fazer a transformação da chave não sei por quais motivos.
 ---
 
 
